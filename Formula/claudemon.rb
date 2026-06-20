@@ -6,8 +6,8 @@ class Claudemon < Formula
   license "MIT"
   head "https://github.com/tahtaciburak/claudemon.git", branch: "main"
 
-  depends_on :macos
   depends_on xcode: :build
+  depends_on :macos
 
   def install
     system "swift", "build", "--disable-sandbox", "-c", "release"
