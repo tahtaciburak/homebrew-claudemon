@@ -2,7 +2,7 @@ class Claudemon < Formula
   desc "Menu bar app showing your Claude Code usage limits"
   homepage "https://github.com/tahtaciburak/claudemon"
   url "https://github.com/tahtaciburak/claudemon/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "413a49c155a0a61cf1b8714feaf7209616ea1971360f0e5a38fe2e7888f35fd0"
+  sha256 "6bee3fd9fa68c7813ea12f52c531cdc662b87afc963ac0be50355e8503bace89"
   license "MIT"
   head "https://github.com/tahtaciburak/claudemon.git", branch: "main"
 
